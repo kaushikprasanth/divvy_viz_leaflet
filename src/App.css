@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.leaflet-div-icon {
+  background: transparent!important;
+  border: none!important;
+}
+.leaflet-div-icon i {
+  font-size: 18px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1 ;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.leaflet-marker-icon{
+  height: 15px !important;
+  width:10px !important
+}
+
+.ant-btn{
+  margin-left: 10px;
+}
+
